@@ -1,0 +1,17 @@
+target:
+  domain: http://www.canadacompany.info
+  path: /list/p/
+  suffix: .html
+  min: 1
+  max: 8000
+
+cssSelector:
+  pageAnchor: td strong a
+  companyName: #list > ul > li:nth-child(1) > div.covalue > a > span
+  governingLegislation: #list > ul > li:nth-child(2) > div.covalue > cite
+  officeAddress: #list > ul > li:nth-child(3) > div.covalue > span
+  status: #list > ul > li:nth-child(4) > div.covalue > span
+  annualFilingPeriod: #list > ul > li:nth-child(6) > div.covalue
+  statusOfAnnualFilings: #list > ul > li:nth-child(7) > div.covalue
+  directors: #list > ul > li:nth-child(8) > div.covalue
+  certificatesAndFilings: #list > ul > li:nth-child(9) > div.covalue

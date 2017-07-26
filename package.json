@@ -1,0 +1,27 @@
+{
+  "name": "scraper-canada",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gareth Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "@thatsmrtalbot/async": "ThatsMrTalbot/async",
+    "@types/cheerio": "^0.22.2",
+    "@types/config": "^0.0.32",
+    "@types/node": "^7.0.16",
+    "@types/winston": "^2.3.3",
+    "cheerio": "^1.0.0-rc.2",
+    "config": "^1.26.1",
+    "js-yaml": "^3.9.0",
+    "tinyreq": "^3.2.2",
+    "typescript": "^2.4.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^3.2.1",
+    "tslint": "^5.5.0"
+  },
+  "scripts": {
+    "start": "NODE_CONFIG_DIR=./config ts-node src/index.ts"
+  }
+}
